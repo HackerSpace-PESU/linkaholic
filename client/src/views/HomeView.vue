@@ -1,5 +1,5 @@
 <template>
-    <div class="px-8 lg:px-20 flex flex-col justify-center mt-[10rem] lg:mt-[15rem]">
+    <div class="px-8 lg:px-16 flex flex-col justify-center mt-[10rem] lg:mt-[15rem]">
         <div class="flex flex-col justify-center text-center w-full">
             <div class="text-3xl lg:text-6xl text-center font-bold font-robotoSlab fg-four">
                 Your very own fully customizable links site is just a few clicks away!
@@ -27,7 +27,7 @@
         <div class="mt-20">
             <h1 class="text-4xl lg:text-6xl text-center font-bold font-robotoSlab fg-zero">Reviews</h1>
             <br>
-            <div class="flex flex-col lg:grid grid-cols-3 space-x-5">
+            <div class="flex flex-col lg:grid grid-cols-3 space-x-3">
                 <review name="Foo">Nothing much to say</review>
                 <review name="Foo">Nothing much to say</review>
                 <review name="Foo">Nothing much to say</review>
