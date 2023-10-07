@@ -29,8 +29,8 @@
             <br>
             <div class="flex flex-col lg:grid grid-cols-3 space-x-3">
                 <review name="Foo">Nothing much to say</review>
-                <review name="Foo">Nothing much to say</review>
-                <review name="Foo">Nothing much to say</review>
+                <review name="Bar">Dem. Just dem.</review>
+                <review name="Baz">Cool theme!!</review>
             </div>
         </div>
         <br><br>

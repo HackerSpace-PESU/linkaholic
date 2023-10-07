@@ -51,7 +51,7 @@ export default {
 
     created() {
         const dynamicRoute = this.$route.params.dynamicRoute;
-        axios.get(`http://localhost:5000/${dynamicRoute}`)
+        axios.get(`https://linkaholic-api.vercel.app/${dynamicRoute}`)
             .then(response => {
                 this.meta = response.data;
                 document.title = `Linkhub - ${this.meta?.['name']}` || "Default lmao";
