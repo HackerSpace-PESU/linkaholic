@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Montserrat:wght@300&family=Poppins&family=Roboto+Slab&display=swap');
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root   {
+    /* FONTS */
+    --poppins: 'Poppins';
+    --roboto-slab: 'Roboto Slab';
+    --montserrat: 'Montserrat';
+    --jetbrains: 'JetBrains Mono';
+
+    /* PALETTES */
+    /* --zero: #1B76FF;
+    --one: #6499E9;
+    --two: #9EDDFF;
+    --three: #A6F6FF;
+    --four: #BEFFF7;
+    --five: #E8FFFC; */
+
+    /* --zero: #2F4858;
+    --one: #33658A;
+    --two: #86BBD8;
+    --three: #4CAC1F;
+    --four: #ffc04a;
+    --five: #F26419; */
+
+    --zero: #50534b;
+    --one: #7d6b57;
+    --two: #7f855c;
+    --three: #62835b;
+    --four: #99829e;
+    --five: #d9d0b4;
+}
+
+/* Font Settings */
+.font-poppins {
+    font-family: var(--poppins);
+}
+
+.font-robotoSlab {
+    font-family: var(--roboto-slab);
+}
+
+.font-montserrat {
+    font-family: var(--montserrat);
+}
+
+.font-jetbrains {
+    font-family: var(--jetbrains);
+}
+
+
+
+
+/* Foreground Colors */
+.fg-zero {
+    color: var(--zero);
+}
+
+.fg-one {
+    color: var(--one);
+}
+
+.fg-two {
+    color: var(--two);
+}
+
+.fg-three {
+    color: var(--three);
+}
+
+.fg-four {
+    color: var(--four);
+}
+
+.fg-five {
+    color: var(--five);
+}
+
+/* Background Colors */
+.bg-zero {
+    background-color: var(--zero);
+}
+
+.bg-one {
+    background-color: var(--one);
+}
+
+.bg-two {
+    background-color: var(--two);
+}
+
+.bg-three {
+    background-color: var(--three);
+}
+
+.bg-four {
+    background-color: var(--four);
+}
+
+.bg-five {
+    background-color: var(--five);
+}
+
+body    {
+    background-color: var(--five);
+}
